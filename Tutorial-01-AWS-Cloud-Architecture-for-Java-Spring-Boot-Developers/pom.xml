@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.tutorials.sid.spring</groupId>
+        <artifactId>Cloud-Tutorials-With-Java-Springboot</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>Tutorial-01-AWS-Cloud-Architecture-for-Java-Spring-Boot-Developers</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Tutorial-01-AWS-Cloud-Architecture-for-Java-Spring-Boot-Developers</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>Section-01-Think-Like-a-Cloud-Architect</module>
+        <module>Section-02-EC2-Elastic-Computing-Cloud</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
